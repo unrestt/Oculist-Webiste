@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculist Website</title>
+    <link rel="shortcut icon" href="assets/images/test_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header-top.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/map.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section id="header-top-section">
+        <div class="container">
+            <div class="info-top-container">
+                <i class="fa-solid fa-phone"></i>
+                <p>(+48) 123 456 789</p>
+            </div>
+            <div class="info-top-container">
+                <p>Pon. - Sob. 9.00 - 18.00 | </p>
+                <i class="fa-regular fa-envelope"></i>
+                <p>email@email.com</p>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <img src="assets/images/test_logo.png" alt="">
+
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="nav-ul">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">O mnie</a>
+                    </li>
+                    <li>
+                        <a href="#">Cennik</a>
+                    </li>
+                    <li>
+                        <a href="#">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>       
+            <div class="phone-container">
+                <p>(+48) 123 456 789</p>
+            </div>     
+        </div>
+    </header>
+
+    <section id="banner-section">
+        <div class="container">
+            <div class="banner-upper-text">
+                <h1>Twoje oczy w dobrych rękach</h1>
+                <h3>dr Adam Nowak</h3>
+            </div>
+            <div class="banner-box">
+                <button>umów wizytę</button>
+                <p>Zapisz się na <br>wizytę już dziś!</p>
+            </div>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="container">
+            <div class="left-about" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                <img src="assets/images/okulista.jpg" alt="about image">
+            </div>
+            <div class="right-about">
+                <h2 class="section-heading" data-aos="fade" data-aos-duration="1200" data-aos-delay="400">O mnie</h2>
+                <div class="bottom-about">
+                    <div class="description-about" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum repudiandae consequatur ad quisquam! Consectetur expedita totam quidem commodi quasi rem asperiores cumque itaque, soluta sapiente? Necessitatibus porro sunt beatae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugit ratione hic rerum consectetur cumque neque dolorum libero accusamus, sit corporis voluptatum, provident, perspiciatis in! Soluta eveniet explicabo necessitatibus deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, porro blanditiis aliquam debitis illo cupiditate mollitia rem ducimus, odio ratione at voluptas, nemo aspernatur iusto asperiores! Fugiat possimus unde quod?</p>
+                    </div>
+                    <div class="points-about">
+                        <div class="point-about">
+                            <h3>3000<span>+</span></h3>
+                            <p>Przebadanych<br>klientów</p>
+                        </div>
+                        <div class="point-about">
+                            <h3>95 <span>%</span></h3>
+                            <p>Zadowolonych<br>klientów</p>
+                        </div>
+                        <div class="point-about">
+                            <h3>10 <span>+</span></h3>
+                            <p>Lat<br>doświadczenia</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services-section">
+        <div class="container">
+            <h2 class="section-title">Usługi okulistyczne</h2>
+            <div class="services-flex">
+                <div class="service-card">
+                        <i class="fa-solid fa-eye"></i>
+                        <h3>Badanie wzroku</h3>
+                        <p>Kompleksowa diagnostyka ostrości widzenia i wad refrakcji.</p>
+                    <div class="price">120 zł</div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-glasses"></i>
+                    <h3>Dobór okularów</h3>
+                    <p>Profesjonalne dopasowanie okularów korekcyjnych i progresywnych.</p>
+                    <div class="price">100 zł</div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-eye-dropper"></i>
+                    <h3>Badanie dna oka</h3>
+                    <p>Wykrywanie chorób siatkówki i nerwu wzrokowego.</p>
+                    <div class="price">150 zł</div>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h3>Konsultacja okulistyczna</h3>
+                    <p>Szczegółowa analiza problemów ze wzrokiem i dobór leczenia.</p>
+                    <div class="price">130 zł</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map-section">
+        <div class="map-text">
+            <h1>Nasza lokalizacja</h1>
+            <h3>Dr Adam Nowak</h3>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165916.1562330844!2d20.900208798726712!3d52.17183344025386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1752791582840!5m2!1spl!2spl"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="contact-section">
+        <div class="container">
+            <h2>Skontaktuj się z nami</h2>
+            <p>Masz pytania? Wypełnij formularz lub skorzystaj z poniższych danych kontaktowych.</p>
+
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>ul. Okulistyczna, 87-100 Toruń</p>
+                    </div>
+                    <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(+48) 123 456 789</p>
+                    </div>
+                    <div class="contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>kontakt@twojokulista.pl</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Twoje imię" required>
+                    <input type="text" name="lastname" placeholder="Twoje nazwisko" required>
+                    <input type="email" name="email" placeholder="Twój e-mail" required>
+                    <input type="number" name="number" placeholder="Twój numer telefonu" required>
+                    <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
+                    <button type="submit">Wyślij wiadomość</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+                <div class="footer-containers">
+                <div class="footer-container">
+                    <h3>Menu</h3>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about-section">O mnie</a>
+                        <a href="#services-section">Cennik</a>
+                        <a href="#projects-section">Galeria</a>
+                        <a href="#contact-section">Kontakt</a>
+                    </div>
+                
+                </div>
+                <div class="footer-container">
+                    <h3>Pomoc</h3>
+                    <div class="footer-links">        
+                        <a href="polityka-prywatnosci.html" target="_blank">Polityka prywatności</a>
+                    </div>
+                
+                </div>
+                <div class="footer-container" id="footer-container-3">
+                    <h3>Kontakt</h3>
+                    <div class="footer-links" id="contact-footer">
+                            <div class="contact-option">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>(+48) <a href="tel:+48535 779 011">535 779 011</a></p>
+                            </div>
+                            <div class="contact-option">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>kutnik.contact@gmail.com</p>
+                            </div>
+
+                    </div>
+
+                </div>
+                <div class="footer-container">
+                    <h3>Info</h3>
+                    <div class="footer-links">
+                        <div class="below-footer-last">
+                        
+                            <p>&copy; Bartosz Kutnik<br>
+                                Wszelkie prawa zastrzeżone</p>
+                            <p>Wykonanie: <a href="https://unrestt.github.io/portfolio/" target="_blank">Bartosz Kutnik</a></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <script>
+        const headerTop = document.getElementById('header-top-section');
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+            header.classList.add('scrolled-up');
+            } else {
+            header.classList.remove('scrolled-up');
+            }
+        });
+    </script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/totop.js"></script>
+</body>
+</html>
