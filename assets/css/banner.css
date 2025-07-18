@@ -16,7 +16,7 @@ section#banner-section .container{
     gap: 15px;
 }
 section#banner-section .container h1, section#banner-section .container h3{
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 .banner-upper-text h3{
     color: var(--color-secondary);
@@ -45,4 +45,9 @@ section#banner-section .container h1, section#banner-section .container h3{
     background-color: var(--color-secondary);
     color: #fff;
     cursor: pointer;
+}
+@media (max-width: 1060px){
+    section#banner-section .container{
+        font-size: 23px;
+    }
 }

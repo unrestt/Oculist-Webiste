@@ -3,6 +3,7 @@
 
 :root{
     --color-primary: #0077B6;
+    --color-hover: #005fa3;
     --color-secondary: #90E0EF;
     --color-additional: #CAF0F8;
     --color-grey: #F0F0F0;
@@ -15,9 +16,9 @@ body{
     background: linear-gradient(to right, #f8fbfd, #eef5f9);
 }
 body::before {
-  content: "";
-  display: block;
-  height: 100px;
+    content: "";
+    display: block;
+    height: 100px;
 }
 *{
     margin: 0;
@@ -32,6 +33,7 @@ section{
     justify-content: center;
     width: 100%;
     padding-bottom: 50px;
+    scroll-margin-top: 75px;
 }
 .container{
     width: 100%;
@@ -39,8 +41,22 @@ section{
     height: 100%;
     padding: 0 50px;
 }
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  text-align: center;
+}
 .section-heading{
-    font-size: 50px;
+    font-size: 45px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .to-top {

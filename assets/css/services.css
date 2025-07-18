@@ -1,13 +1,9 @@
 #services-section {
-    background: #f4f9fc;
     padding: 80px 20px;
 }
-
-.section-title {
-    text-align: center;
-    font-size: 36px;
-    color: var(--color-primary, #0077cc);
-    margin-bottom: 50px;
+#services-section .container{
+    display: flex;
+    flex-direction: column;
 }
 
 .services-flex {
@@ -38,7 +34,7 @@
 
 .service-card i {
     font-size: 40px;
-    color: var(--color-secondary, #00aaff);
+    color: var(--color-secondary);
     margin-bottom: 15px;
 }
 
@@ -60,4 +56,18 @@
     color: var(--color-primary, #0077cc);
     border-top: 1px solid #eee;
     padding-top: 12px;
+}
+#services-section .container a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    padding: 20px 40px;
+    align-self: center;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+}
+#services-section .container a:hover{
+    background-color: var(--color-hover);
 }

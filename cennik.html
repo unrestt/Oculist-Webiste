@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculist Website</title>
+    <link rel="shortcut icon" href="assets/images/test_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header-top.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/price.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section id="header-top-section">
+        <div class="container">
+            <div class="info-top-container">
+                <i class="fa-solid fa-phone"></i>
+                <p>(+48) 123 456 789</p>
+            </div>
+            <div class="info-top-container">
+                <p>Pon. - Sob. 9.00 - 18.00 | </p>
+                <i class="fa-regular fa-envelope"></i>
+                <p>email@email.com</p>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <img src="assets/images/test_logo.png" alt="">
+
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="nav-ul">
+                    <li>
+                        <a href="index.html#">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about-section">O mnie</a>
+                    </li>
+                    <li>
+                        <a href="cennik.html">Cennik</a>
+                    </li>
+                    <li>
+                        <a href="index.html#team-section">Kadra</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contact-section">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>       
+            <div class="phone-container">
+                <p>(+48) 123 456 789</p>
+            </div>     
+        </div>
+    </header>
+
+    <section id="price-section">
+    <div class="container">
+        <h2>Cennik usług</h2>
+
+        <div class="price-list">
+        <div class="price-item">
+            <h3>Kompleksowe badanie wzroku</h3>
+            <p>Ocena ostrości wzroku, pomiar ciśnienia śródgałkowego, badanie dna oka.</p>
+            <span class="price">150 zł</span>
+        </div>
+
+        <div class="price-item">
+            <h3>Dobór okularów korekcyjnych</h3>
+            <p>Indywidualne dopasowanie szkieł i opraw do potrzeb pacjenta.</p>
+            <span class="price">100 zł</span>
+        </div>
+
+        <div class="price-item">
+            <h3>Badanie kierowców (kat. A, B, C)</h3>
+            <p>Zaświadczenie do prawa jazdy – szybkie i bezproblemowe badanie.</p>
+            <span class="price">120 zł</span>
+        </div>
+
+        <div class="price-item">
+            <h3>Konsultacja okulistyczna</h3>
+            <p>Diagnoza problemów ze wzrokiem, zalecenia oraz skierowania na dalsze badania.</p>
+            <span class="price">130 zł</span>
+        </div>
+
+        <div class="price-item">
+            <h3>Badanie pod kątem jaskry / zaćmy</h3>
+            <p>Profilaktyka chorób oczu, w tym tonometria, pachymetria i gonioskopia.</p>
+            <span class="price">180 zł</span>
+        </div>
+
+        <div class="price-item">
+            <h3>Kontrola po zabiegach okulistycznych</h3>
+            <p>Monitorowanie gojenia i skuteczności leczenia po operacjach.</p>
+            <span class="price">100 zł</span>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+                <div class="footer-containers">
+                <div class="footer-container">
+                    <h3>Menu</h3>
+                    <div class="footer-links">
+                        <a href="index.html#">Home</a>
+                        <a href="index.html#about-section">O mnie</a>
+                        <a href="cennik.html">Cennik</a>
+                        <a href="index.html#team-section">Kadra</a>
+                        <a href="index.html#contact-section">Kontakt</a>
+                    </div>
+                
+                </div>
+                <div class="footer-container">
+                    <h3>Pomoc</h3>
+                    <div class="footer-links">        
+                        <a href="polityka-prywatnosci.html" target="_blank">Polityka prywatności</a>
+                    </div>
+                
+                </div>
+                <div class="footer-container" id="footer-container-3">
+                    <h3>Kontakt</h3>
+                    <div class="footer-links" id="contact-footer">
+                            <div class="contact-option">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>(+48) <a href="tel:+48535 779 011">535 779 011</a></p>
+                            </div>
+                            <div class="contact-option">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>kutnik.contact@gmail.com</p>
+                            </div>
+
+                    </div>
+
+                </div>
+                <div class="footer-container">
+                    <h3>Info</h3>
+                    <div class="footer-links">
+                        <div class="below-footer-last">
+                        
+                            <p>&copy; Bartosz Kutnik<br>
+                                Wszelkie prawa zastrzeżone</p>
+                            <p>Wykonanie: <a href="https://unrestt.github.io/portfolio/" target="_blank">Bartosz Kutnik</a></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <script>
+        const headerTop = document.getElementById('header-top-section');
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+            header.classList.add('scrolled-up');
+            } else {
+            header.classList.remove('scrolled-up');
+            }
+        });
+    </script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/totop.js"></script>
+</body>
+</html>
